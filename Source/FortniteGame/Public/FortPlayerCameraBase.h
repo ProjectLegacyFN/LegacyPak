@@ -32,7 +32,7 @@ private:
     
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSubclassOf<UFortCameraMode> Base3PClass;
+    UFortCameraMode* Base3PClass;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<UFortCameraMode> Targeting3PClass;
