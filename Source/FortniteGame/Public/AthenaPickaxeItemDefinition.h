@@ -29,7 +29,10 @@ public:
     FFortUICameraFrameTargetBounds CameraFramingBounds;
     
     UAthenaPickaxeItemDefinition();
-    
-    // Fix for true pure virtual functions not being implemented
+
+    virtual FPrimaryAssetId GetPrimaryAssetId() const override
+    {
+        return FPrimaryAssetId("AthenaPickaxe", GetFName());
+    }
 };
 
