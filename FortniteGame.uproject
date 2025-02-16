@@ -252,6 +252,10 @@
 		{
 			"Name": "MatchmakingService",
 			"Enabled": true
+		},
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
 		}
 	]
 }
