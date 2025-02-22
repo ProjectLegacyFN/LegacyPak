@@ -256,6 +256,14 @@
 		{
 			"Name": "PythonScriptPlugin",
 			"Enabled": true
+		},
+		{
+			"Name": "FortnitePorting",
+			"Enabled": false
+		},
+		{
+			"Name": "UEFormat",
+			"Enabled": false
 		}
 	]
 }
